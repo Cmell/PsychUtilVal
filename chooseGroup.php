@@ -14,5 +14,6 @@ foreach ($groupVars as $gV) {
 
 $group = $activeGroupVars[mt_rand(0,count($activeGroupVars)-1)];
 
-echo $group;
+echo "thing";
+echo json_encode($group);
 ?>
